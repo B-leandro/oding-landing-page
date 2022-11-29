@@ -1,0 +1,33 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {   
+    list-style: none;
+}
+
+li {
+    margin-left: 30px;
+}
+
+.size {
+    width: 1400px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar {
+    background-color: hsl(200 80% 15%);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+
+}
