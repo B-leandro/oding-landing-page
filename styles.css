@@ -87,3 +87,41 @@ button:hover {
 img {
     width: 100%;
 }
+
+.main h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contsize {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 600px;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px 24px;
+    padding: 0 10px;
+    width: fit-content;
+    flex: 1 1 700px;
+    margin: 0 auto;
+    justify-content: flex-start;
+
+}
+
+.content:last-of-type {
+    margin-right: auto;
+}
+
+.content {
+    aspect-ratio : 1 / 1;
+    width: 17%;
+    border: 5px solid blue;
+    border-radius: 5%;
+    min-width: 100px;
+
+}
