@@ -29,6 +29,28 @@ button:hover {
     border: 1px solid white;
 }
 
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #F9FAF8
+}
+
+.head p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    font-style: italic;
+    color: #F9FAF8
+}
+
+.logo {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: #F9FAF8
+}
+
 .sizenav,
 .sizehead {
     width: 1400px;
@@ -91,6 +113,9 @@ img {
 .main h2 {
     text-align: center;
     margin-top: 50px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
 }
 
 .contsize {
@@ -104,24 +129,34 @@ img {
 .container {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px 24px;
+    gap: 20px 20px;
     padding: 0 10px;
-    width: fit-content;
-    flex: 1 1 700px;
+    width: 100%;
+    flex: 1 1 auto;
     margin: 0 auto;
-    justify-content: flex-start;
-
+    justify-content: space-between;
 }
 
-.content:last-of-type {
-    margin-right: auto;
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    width: 17%;
+    min-width: 150px;
+}
+
+.card > p {
+    padding: 0 10px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #111111
 }
 
 .content {
     aspect-ratio : 1 / 1;
-    width: 17%;
-    border: 5px solid blue;
-    border-radius: 5%;
-    min-width: 100px;
+    width: 100%;
+    border: 5px solid rgba(0, 0, 200, 0.7);
+    border-radius: 9%;
 
 }
