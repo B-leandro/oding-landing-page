@@ -12,6 +12,23 @@ li {
     margin-left: 30px;
 }
 
+button {
+    background-color: hsl(230 90% 30%);
+    color:hsl(200 10% 90%);
+    width: 160px;
+    height:40px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: hsl(230 90% 50%);
+    color: white;
+    border: 1px solid white;
+}
+
 .sizenav,
 .sizehead {
     width: 1400px;
@@ -39,26 +56,28 @@ li {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+
 }
 
 .presentation {
-    background-color: hsl(200 60% 20%);
+    background-color: hsl(200 60% 15%);
     display: flex;
     justify-content: center;
-    padding: 40px 10px;
+    padding: 80px 10px;
 }
 
 .head {
-    flex: 0 1 600px;
+    max-width: 600px;
+    flex: 1 1 500px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 100%;
+    
 }
 
 .image {
-    width: 600px;
+    max-width: 600px;
+    flex: 1 1 500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
