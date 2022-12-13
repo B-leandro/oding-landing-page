@@ -15,9 +15,9 @@ li {
 button {
     background-color: hsl(230 90% 30%);
     color:hsl(200 10% 90%);
-    width: 160px;
-    height:40px;
-    font-size: 16px;
+    width: 200px;
+    height:60px;
+    font-size: 18px;
     font-weight: 700;
     border: 2px solid whitesmoke;
     border-radius: 5px;
@@ -52,7 +52,8 @@ h1 {
 }
 
 .sizenav,
-.sizehead {
+.sizehead,
+.signsize {
     width: 1400px;
     display: flex;
 }
@@ -64,7 +65,7 @@ h1 {
 }
 .navbar {
     background-color: hsl(200 80% 15%);
-    padding: 10px 10px;
+    padding: 20px 10px;
     display: flex;
     justify-content: center;
 }
@@ -85,7 +86,7 @@ h1 {
     background-color: hsl(200 60% 15%);
     display: flex;
     justify-content: center;
-    padding: 80px 10px;
+    padding: 120px 10px;
 }
 
 .head {
@@ -112,8 +113,8 @@ img {
 
 .main h2 {
     text-align: center;
-    margin-top: 50px;
-    font-size: 50px;
+    margin-top: 80px;
+    font-size: 60px;
     font-weight: 700;
     font-family: 'Lato', sans-serif;
 }
@@ -133,7 +134,7 @@ img {
     padding: 0 10px;
     width: 100%;
     flex: 1 1 auto;
-    margin: 0 auto;
+    margin: 30px auto;
     justify-content: space-between;
 }
 
@@ -174,6 +175,7 @@ img {
 .quote {
     display: flex;
     background-color: #bfbfc5;
+    padding: 0 10px;
 }
 
 .quotesize > p {
@@ -194,4 +196,36 @@ img {
 
 .author::before {
     content: "\2014\0020";
+}
+
+.signsize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 110px auto;
+} 
+
+.signup {
+    background-color: hsl(180 85% 40%);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 50px;
+    width: 100%;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.signup h2 {
+    margin: 0;
+    text-align: left;
+}
+
+.signup p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: hsl(180 40% 10%)
 }
