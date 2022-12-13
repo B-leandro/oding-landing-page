@@ -12,6 +12,19 @@ li {
     margin-left: 30px;
 }
 
+a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    font-weight: 400;
+}
+
 button {
     background-color: hsl(230 90% 30%);
     color:hsl(200 10% 90%);
