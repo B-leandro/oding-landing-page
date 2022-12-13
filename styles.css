@@ -229,3 +229,13 @@ img {
     font-size: 23px;
     color: hsl(180 40% 10%)
 }
+
+footer {
+    background-color: hsl(200 80% 15%);
+    color: hsl(200 10% 90%);
+    font-family: 'Lato' serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 50px 10px;
+}
