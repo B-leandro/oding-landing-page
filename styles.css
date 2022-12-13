@@ -44,8 +44,8 @@ button:hover {
 
 h1 {
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 35px;
+    font-weight: 900;
+    font-size: 48px;
     color: #F9FAF8
 }
 
@@ -56,10 +56,9 @@ figcaption {
 
 .head p {
     font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 23px;
-    font-style: italic;
-    color: #F9FAF8
+    font-weight: 500;
+    font-size: 20px;
+    color: #E5E7EB
 }
 
 .logo {
@@ -88,6 +87,7 @@ figcaption {
     justify-content: center;
     position: fixed;
     top: 0;
+    box-sizing: border-box;
     width: 100%;
 }
 
@@ -104,7 +104,7 @@ figcaption {
 }
 
 .presentation {
-    background-color: hsl(200 60% 15%);
+    background-color: #1F2937;
     display: flex;
     justify-content: center;
     padding: 120px 10px;
@@ -136,9 +136,10 @@ img {
 .main h2 {
     text-align: center;
     margin-top: 80px;
-    font-size: 60px;
-    font-weight: 700;
+    font-size: 46px;
+    font-weight: 900;
     font-family: 'Lato', sans-serif;
+    color: #1F2937;
 }
 
 .contsize {
@@ -187,7 +188,7 @@ img {
     aspect-ratio : 1 / 1;
     width: 100%;
     box-sizing: border-box;
-    border: 5px solid rgba(0, 0, 200, 0.7);
+    border: 5px solid rgb(20, 20, 200);
     border-radius: 9%;
 
 }
@@ -203,16 +204,17 @@ img {
 
 .quote {
     display: flex;
-    background-color: #bfbfc5;
+    background-color: #E5E7EB;
     padding: 0 10px;
 }
 
 .quotesize > p {
     text-align: justify;
-    font-size: 35px;
+    font-size: 36px;
     font-weight: 200;
     font-family: 'Lato', sans-serif;
     font-style: italic;
+    color: #1F2937
 }
 
 .quotesize > .author {
