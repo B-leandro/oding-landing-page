@@ -123,7 +123,7 @@ img {
     justify-content: center;
     flex: 1 1 600px;
     max-width: 1200px;
-    margin: 40px auto;
+    margin: 50px auto 110px;
 }
 
 .container {
@@ -156,7 +156,42 @@ img {
 .content {
     aspect-ratio : 1 / 1;
     width: 100%;
+    box-sizing: border-box;
     border: 5px solid rgba(0, 0, 200, 0.7);
     border-radius: 9%;
 
+}
+
+.quotesize {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    flex: 1 1 600px;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.quote {
+    display: flex;
+    background-color: #bfbfc5;
+}
+
+.quotesize > p {
+    text-align: justify;
+    font-size: 35px;
+    font-weight: 200;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
+
+.quotesize > .author {
+    text-align: right;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+}
+
+.author::before {
+    content: "\2014\0020";
 }
