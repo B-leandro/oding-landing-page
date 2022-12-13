@@ -45,8 +45,13 @@ button:hover {
 h1 {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 35px;
     color: #F9FAF8
+}
+
+figcaption {
+    font-family: 'Lato', sans-serif;
+    color: aqua;
 }
 
 .head p {
@@ -60,7 +65,7 @@ h1 {
 .logo {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 35px;
     color: #F9FAF8
 }
 
@@ -165,6 +170,13 @@ img {
     font-weight: 400;
     font-size: 20px;
     color: #111111
+}
+
+.content img {
+    height: 100%;
+    border-radius: 5%;
+    z-index: -1;
+    position:relative;
 }
 
 .content {
